@@ -1,0 +1,26 @@
+# Игнорировать все по умолчанию
+*
+
+# Разрешить папки lab1 и lab2 (без этого мы не увидим их содержимое)
+!lab1/
+!lab2/
+
+# Но отслеживать нужные папки
+!lab1/custom_dataset.yaml
+!lab1/lab1.ipynb
+!lab1/README.md
+!lab1/result.jpg
+!lab1/trained_yolov8n.pt
+!lab1/yolo11n.pt
+!lab1/yolov8n.pt
+
+
+!lab2/lab2.ipynb
+!lab2/lab2.py
+!lab2/output.png
+!lab2/README.md
+
+# И сам .gitignore
+!.gitignore
+!README.md
+
