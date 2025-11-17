@@ -4,6 +4,8 @@
 # Разрешить папки lab1 и lab2 (без этого мы не увидим их содержимое)
 !lab1/
 !lab2/
+!lab3/
+!lab4/
 
 # Но отслеживать нужные папки
 !lab1/custom_dataset.yaml
@@ -19,6 +21,16 @@
 !lab2/lab2.py
 !lab2/output.png
 !lab2/README.md
+
+!lab3/lab3.ipynb
+!lab3/README.md
+
+!lab4/lab4.ipynb
+!lab4/generated_image_1.png
+!lab4/generated_image_2.png
+!lab4/generated_image_3.png
+!lab4/generated_image.png
+!lab4/README.md
 
 # И сам .gitignore
 !.gitignore
